@@ -58,7 +58,7 @@ test('the report shows the cover and every section for a seeded profile', async 
   await expect(main.getByRole('group', { name: 'The chart at a glance' })).toContainText('Lagna')
 
   const contents = main.getByRole('navigation', { name: 'Contents' }).getByRole('listitem')
-  await expect(contents).toHaveText(SECTIONS.map((s) => new RegExp(s.replace(/[()]/g, '\\$&'))))
+  await expect(contents).toHaveText(SECTIONS.map((s) => new RegExp(s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))))
   for (const name of SECTIONS) await expect(main.getByRole('heading', { level: 2, name, exact: true })).toBeVisible()
 
   // D1 and D9 in the chosen style (North Indian by default), then the planet table.
