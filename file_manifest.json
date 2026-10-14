@@ -16,12 +16,20 @@
     "sha256": "119a3d5ae8a8bc84f5058f6ba7cbc241fb80758afcfbb5153158770a356838a5"
   },
   "CITATION.cff": {
-    "bytes": 512,
-    "sha256": "9772609044e2b9c40dbd54d4f380c812b1cb03e0df14f9ef2a39d4b4eee16dca"
+    "bytes": 579,
+    "sha256": "cba3de09f5ae90f55cdfff03d909b76f6b1f4880222beed2190d7664bc8e7170"
+  },
+  "CLA.md": {
+    "bytes": 2864,
+    "sha256": "8b7a4eb1d4b58d7f0f174e48bc044cd89414e3afd0875f2a57fe593d4916b621"
   },
   "COMPLETION_REPORT.md": {
     "bytes": 8599,
     "sha256": "80fe770a303f27d42da7bbf744eea8b624165355758cbafc7ffbc1cec063abe9"
+  },
+  "CONTRIBUTING.md": {
+    "bytes": 1392,
+    "sha256": "b49a9dcbac7ee792d404574b25c6f20c857c74458ef79ac65ccf2f7b6347d9cd"
   },
   "INPUT_FORMATS.md": {
     "bytes": 7800,
@@ -30,6 +38,10 @@
   "LICENSE.txt": {
     "bytes": 34523,
     "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+  },
+  "NOTICE": {
+    "bytes": 2840,
+    "sha256": "12c9148f16c4d04fc9e55bb3edb49df2434008e632c1f05a0cc314ffc1f995b0"
   },
   "PREDICTION_STUDY_PROTOCOL.md": {
     "bytes": 7169,
@@ -40,8 +52,8 @@
     "sha256": "7b834043e1af8c1e08a3f0b3f8c8dd44279279b4d34f7517a70782e1cdafcb09"
   },
   "README.md": {
-    "bytes": 15864,
-    "sha256": "316dc96c54d03737d475acab054984772bfe9789eab1f19d1525afc8fa430f28"
+    "bytes": 16287,
+    "sha256": "284dd9cb56a85c76563081d4661cbfd666b13ec22a99b48b9030f2c05f2b2728"
   },
   "RESEARCH_CLOSEOUT.md": {
     "bytes": 12838,
@@ -64,20 +76,20 @@
     "sha256": "4a0dcc363111ec187093bfc09be5939f5b03f00005b3330cf2e39d9cfb109dac"
   },
   "audit_profile_conflicts.py": {
-    "bytes": 3562,
-    "sha256": "6da6219938e4f3067c93107ec289c99a833005c24531a4725ab2e1f94f785200"
+    "bytes": 3669,
+    "sha256": "6f57ce62e6d02746a301e05c7780685bbdb5e7d5537156e6150a216a25c5b962"
   },
   "audit_strengths.py": {
-    "bytes": 9563,
-    "sha256": "3c97609adc5fa1ffb63895ceb048f51dba7833846b75577d8a77626cecfe13d8"
+    "bytes": 9670,
+    "sha256": "8acaee84dca94350856e7772d6c3b8be0e42f54cbc512a3149c171bdb3097858"
   },
   "audit_yogas.py": {
-    "bytes": 11173,
-    "sha256": "ace5189c14e5a6fd1e753264f8ad25ecb36b5429ee99870ad76834a50f201728"
+    "bytes": 11280,
+    "sha256": "acaeb72f8f836e4edfbf80e0b7d3441caf1b734ba2b7039f5e49bfb6598bba01"
   },
   "benchmark_astronomy.py": {
-    "bytes": 5954,
-    "sha256": "4a649e03c1c4cb6bafbb06920b5c047eed2de69b732c4270d50d9d7e717e280e"
+    "bytes": 6061,
+    "sha256": "42e050c4b771dc740986dc298812ec8dada624efd6c5458b71a3a76d3c38a4ed"
   },
   "examples/book_example_118.json": {
     "bytes": 279,
@@ -132,16 +144,16 @@
     "sha256": "e46bf76a8e00f00ec0a669df21c9b586daadd7cbcc60f49f4a3d8eb5278494ca"
   },
   "generate_examples.py": {
-    "bytes": 3113,
-    "sha256": "7024e92ffd80fb97a4988e9cbff272faaee4bc8f65258043a51d46dacb4cbc0e"
+    "bytes": 3269,
+    "sha256": "fb6c377a43640ec1374030191d61528f4269116a21587ed1cbf1b92ccbd82e53"
   },
   "independent_astronomy_results.json": {
     "bytes": 20534,
     "sha256": "6dd100a2a93ee79233bc15d58b8242347fa080ae31fea121016b28b496881c54"
   },
   "index_book.py": {
-    "bytes": 1901,
-    "sha256": "652adc67309aa8a593525d9029b2f056fd734d4e07c2f55ecf068f622d8aaf6b"
+    "bytes": 2057,
+    "sha256": "95c103970074e1ec15e1c349d9e1df5b8835bcf7b78d4ba30c38603700daeb40"
   },
   "profile_conflicts.json": {
     "bytes": 2053,
@@ -152,8 +164,8 @@
     "sha256": "20d0f7474a4132cd86934db3b5ec4d469cbea189040145be941bb738f7e829c9"
   },
   "reconcile_strengths.py": {
-    "bytes": 8663,
-    "sha256": "def848a2d72037a16e812c47fcb082ae426e8b8d8675c474c1934a465dd4b0ac"
+    "bytes": 8770,
+    "sha256": "2dfdb931199ac66caad33e3676d9378cedd3d2a86df3bfc11e527ff77cce1bdb"
   },
   "requirements-audit.txt": {
     "bytes": 226,
@@ -180,104 +192,104 @@
     "sha256": "c69bba7a44e8684fb7800ace56fd065a89ad7cf911edbf4ef30b71b7d58d88a7"
   },
   "tests/__init__.py": {
-    "bytes": 0,
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    "bytes": 156,
+    "sha256": "5dad9c27cfea87c97bad06bd27b9005313507d93c5375d7338b3b57d1f68d450"
   },
   "tests/test_calculations.py": {
-    "bytes": 20166,
-    "sha256": "8ea39824d98081df14df8c3e318586edbe0bdbe2334fd725c6a06e94ddc789e7"
+    "bytes": 20322,
+    "sha256": "10ab4f636cade975edefe8e6bb0fadec94a60590040ef7ce859e7bfc12319374"
   },
   "tests/test_completion.py": {
-    "bytes": 16672,
-    "sha256": "c75f96516f199aacebd2d3b7cdb96ca40d03283bbcab551d73af51f7eac7a357"
+    "bytes": 16828,
+    "sha256": "e282899a7ee8cf06546e584af322b2a1846b9545a6b662ed8c1e5e912dadd0e8"
   },
   "tests/test_extensions.py": {
-    "bytes": 15194,
-    "sha256": "1058b752b3102630b47de2f06ac9052b3fd84ee359aab2fedf4020e67ab5c1ce"
+    "bytes": 15350,
+    "sha256": "6a0f16b7555aa9213c47ddb1595e33d8a9d7631e0749ae17572c0f00b12b8298"
   },
   "tests/test_integration.py": {
-    "bytes": 4719,
-    "sha256": "c977cedbe1df1f7cf0c7cd494b87ec240d6670a315315c7108282845a71407f1"
+    "bytes": 4875,
+    "sha256": "ba7d080035255a47d809a05d42bb7e9e5f00afa3f479ea412ae23e2f28e42479"
   },
   "tests/test_research.py": {
-    "bytes": 10383,
-    "sha256": "9ddb9d8afddca893e924acc30a80f28521c22434e9835ff79db642b4c234c4e6"
+    "bytes": 10539,
+    "sha256": "8f87d8cc2ba898e670cc747cffae9bc768c94a149f476474e4273ec5cd6b794d"
   },
   "vedic_toolkit/__init__.py": {
-    "bytes": 103,
-    "sha256": "5cdaeb045737c10f530b90ceda5f0998ed1f45500a92681d2d01acb3e7abfa4c"
+    "bytes": 259,
+    "sha256": "4a0674711c4f3c165f6234b00d74bfe5d895193cbf2bf9fdf5e27bbb005ee2d3"
   },
   "vedic_toolkit/__main__.py": {
-    "bytes": 7640,
-    "sha256": "39d6482c4e14f1e7c374c7275ef896a21d3eaf1f5b2817c7338195516e269ade"
+    "bytes": 7796,
+    "sha256": "b5b9e63120703427feca89a678e23f2d78a42664c9c0c40f0a496bb424e33464"
   },
   "vedic_toolkit/analysis.py": {
-    "bytes": 14483,
-    "sha256": "8d3418c92464cee924993b70c608765212f25c1a01b0b7c045bec588a3d17996"
+    "bytes": 14590,
+    "sha256": "4bb1a3272f9c6e3a493553a1d628d69dba3205392dce45c9fca858a60acf2425"
   },
   "vedic_toolkit/ashtakavarga.py": {
-    "bytes": 4866,
-    "sha256": "4b2fc41f4871c516e28bee697d292d8265ff36fa60015ff003e2ba2ce3b889bd"
+    "bytes": 4973,
+    "sha256": "bc2ec67fec653cfb6369c9e16ae9a9be4f801fa15b0e2e527241c5ecf8b03863"
   },
   "vedic_toolkit/astronomy.py": {
-    "bytes": 11197,
-    "sha256": "e8ae780fac031acc930dc5e959fd3651eb89b5bb9bf2b7501a4e0f97dcba7393"
+    "bytes": 11304,
+    "sha256": "620ca17cf01c96b6e0c923f7623287dc0c1c2dd25f1a878498dd6d203016e659"
   },
   "vedic_toolkit/calendar.py": {
-    "bytes": 1903,
-    "sha256": "7a9497e672245ced817361710406bc289ce1334928a452a9cc2492348e17db6e"
+    "bytes": 2010,
+    "sha256": "17fd892a48d785dae4b9733e116fedc9cce9f8848fb47c706243beb260149d4e"
   },
   "vedic_toolkit/cohort_validation.py": {
-    "bytes": 5254,
-    "sha256": "5384b83fae43f60087d12756136b6bcb95427e67dfd8cee6059ca7c5e8f54820"
+    "bytes": 5361,
+    "sha256": "8a7ed0942e74c5bf9da33c0ba6abf347c0235c126b5c66d5f42577967238d939"
   },
   "vedic_toolkit/core.py": {
-    "bytes": 15161,
-    "sha256": "e05bcfe7b894f8371c156e2ff4124b904010ba6e829382b642a9ae110fe264c8"
+    "bytes": 15268,
+    "sha256": "9646649e36876c324ecefc8f0095c08aa88a4b06a1ae3169aebaf6ba6b6caca6"
   },
   "vedic_toolkit/dashas.py": {
-    "bytes": 12320,
-    "sha256": "1fed82cecdf4301a1619a30cdfd9456f460b0c4b89f48a167c4ddc8384ab87c9"
+    "bytes": 12427,
+    "sha256": "81cd9007daf1662dfe563561610693a4ab257566359058a9d75352d49decc406"
   },
   "vedic_toolkit/decision_rules.py": {
-    "bytes": 4515,
-    "sha256": "9132ab2c1780c0a2b6d88362a023522a9eb9cfb5a43140aa5333f94b027c98b3"
+    "bytes": 4622,
+    "sha256": "151ac3bb167120e23b4baf8323cb65dc48a06305ea4b7d1d96ca73680a7c15a0"
   },
   "vedic_toolkit/electional.py": {
-    "bytes": 16180,
-    "sha256": "508e14881151dcfbbbd7a8e571eeaa8a7f46bc81b4554ef5666f8e02eba3d6af"
+    "bytes": 16287,
+    "sha256": "685201b4ce8df554d3d37704b2e48e99b6bedc3c69d720340a43b5dcd87fca1e"
   },
   "vedic_toolkit/interpretation.py": {
-    "bytes": 10980,
-    "sha256": "0b643c3e6e8cba4e013f9aaa892d731db9cf20320b2fc4fd21c79a9e019faece"
+    "bytes": 11087,
+    "sha256": "c9060cfad8841b06643b27b5c668ab0f611a4c9e53de13458917eb4f51eacd99"
   },
   "vedic_toolkit/moola.py": {
-    "bytes": 8481,
-    "sha256": "d9ab4c319e9760337120d7a425913607e9c224755d61e0e2f58df4fc95fb42bc"
+    "bytes": 8588,
+    "sha256": "f2468debdea9cbcefe149527864a5e1817f82a138a97bb23119f28cb6ed94693"
   },
   "vedic_toolkit/strength_context.py": {
-    "bytes": 5026,
-    "sha256": "149c9baa58e720425f263db265ca7da7efc88f35a803a092aef63008a39f48f7"
+    "bytes": 5133,
+    "sha256": "b1711790212b4c6e94a103535af26b171cd0d9971c4527b814a4a685e81663f4"
   },
   "vedic_toolkit/strengths.py": {
-    "bytes": 15636,
-    "sha256": "207ff386832d4fd57fab76fa0ba4f41b4a8808704157c9d7a30f7200d230db69"
+    "bytes": 15743,
+    "sha256": "0cf61b087e627b3cdacd1e126618d668c420c4b8cfad392ae57cc3435d7c0581"
   },
   "vedic_toolkit/tajaka.py": {
-    "bytes": 17745,
-    "sha256": "fb37190936c1dbcbfbf6e6373bddfefcfa69c794f71a84926e9540b2f97a223b"
+    "bytes": 17852,
+    "sha256": "7c5627eec3917dc4dfc5347d38455331eee1d315729554e15af54d973700ab86"
   },
   "vedic_toolkit/tajaka_yogas.py": {
-    "bytes": 10329,
-    "sha256": "693206aa69ddb6871fae3972871c9990537071611b8687be2950f7a7ad56a0fe"
+    "bytes": 10436,
+    "sha256": "fbab15f98b7138c8068df210492bc2e48466e611385e39019dfa9185a7b821b9"
   },
   "vedic_toolkit/validation.py": {
-    "bytes": 5811,
-    "sha256": "f09e86fb38c17b246b93de823da4329656f14bd92ecdc0df37485c0bc2832287"
+    "bytes": 5918,
+    "sha256": "c448f2d1c0f3b48b281a3c55098eebc4c44cd0957162f2ccea58ea63ff9a5d93"
   },
   "vedic_toolkit/yogas.py": {
-    "bytes": 27854,
-    "sha256": "436c6b6c089830dae7011a9d2e663057d32abbd034f0b046682584c03077391a"
+    "bytes": 27961,
+    "sha256": "389334a988762e8207bf9f6b3a688a4adffdd6fa7c42cf520bdbd29a7f556b1a"
   },
   "verification_metrics.json": {
     "bytes": 610,
@@ -288,8 +300,8 @@
     "sha256": "47999deccd89ac65c212897b8b6c1017e79195651bcf19b603bbb35beba21b26"
   },
   "verify.py": {
-    "bytes": 1925,
-    "sha256": "2ad781b6db32faae0f809ae9d35fd5c84337612461e272a19096098a03b5eb36"
+    "bytes": 2081,
+    "sha256": "27b59a01323c5c477730d7c02b1fad940a2cf9cf95ce541edfd93611b0401129"
   },
   "yoga_audit_results.json": {
     "bytes": 514100,
