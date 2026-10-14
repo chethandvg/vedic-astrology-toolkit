@@ -22,6 +22,7 @@
   --card-shadow: inset 0 1px 0 rgb(255 255 255 / 0.05), 0 24px 48px -28px rgb(0 0 0 / 0.7);
   --overlay: rgb(3 5 12 / 0.62);
   --nav-bg: rgb(11 16 32 / 0.74);
+  --tabbar-bg: rgb(11 16 32 / 0.92);
   --good-fg: #6ee7b7;
   --good-bg: rgb(52 211 153 / 0.12);
   --good-border: rgb(52 211 153 / 0.3);
@@ -59,6 +60,7 @@
   --card-shadow: 0 1px 2px rgb(15 23 42 / 0.05), 0 20px 44px -28px rgb(70 45 10 / 0.3);
   --overlay: rgb(20 26 46 / 0.38);
   --nav-bg: rgb(250 248 243 / 0.82);
+  --tabbar-bg: rgb(250 248 243 / 0.94);
   --good-fg: #047857;
   --good-bg: rgb(16 185 129 / 0.12);
   --good-border: rgb(4 120 87 / 0.28);

@@ -160,7 +160,7 @@ function DesktopNav({ profile, view, matching }: { profile: Profile; view: Profi
 function MobileTabBar({ profile, view }: { profile: Profile; view: ProfileView | null }) {
   const { t } = useT()
   return (
-    <nav aria-label={t('nav.forecasts')} className="pb-safe fixed inset-x-0 bottom-0 z-40 border-t border-[var(--divider)] bg-[var(--nav-bg)] backdrop-blur-xl backdrop-saturate-150 md:hidden">
+    <nav aria-label={t('nav.forecasts')} className="pb-safe fixed inset-x-0 bottom-0 z-40 border-t border-[var(--divider)] bg-[var(--tabbar-bg)] backdrop-blur-xl backdrop-saturate-150 md:hidden">
       <ul className="mx-auto grid max-w-lg grid-cols-5 px-1">
         {PROFILE_VIEWS.map(({ view: v, icon: Icon }) => {
           const current = v === view
