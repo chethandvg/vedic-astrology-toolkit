@@ -236,7 +236,7 @@ Issues and pull requests are welcome, especially:
 - comparisons with other software under clearly matched settings
 - translations of planet, sign and nakshatra names
 
-Please run `python verify.py` before opening a pull request. It runs the suite and refreshes `verification_results.json`.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. First-time contributors sign the [Contributor License Agreement](CLA.md) once, by replying to the bot's comment; you keep the copyright in your work.
 
 ## ⚖️ License and credits
 
