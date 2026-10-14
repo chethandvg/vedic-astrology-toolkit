@@ -44,7 +44,7 @@ export function SegmentedControl<T extends string>({
           value={o.value}
           className={cn(
             'relative inline-flex min-w-0 flex-1 items-center justify-center gap-1.5 rounded-full font-medium text-[var(--text-muted)] transition-colors hover:text-[var(--text)] data-[state=checked]:text-[var(--accent-text)] focus-visible:outline-offset-0 [&_svg]:size-4 [&_svg]:shrink-0',
-            size === 'md' ? 'h-11 px-2.5 text-sm sm:px-4' : 'h-8 px-3 text-[0.8rem]',
+            size === 'md' ? 'h-11 px-2.5 text-sm sm:px-4' : 'h-11 md:h-8 px-3 text-[0.8rem]',
             options.length > 2 && 'max-sm:[&_svg]:hidden',
           )}
         >

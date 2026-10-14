@@ -49,7 +49,7 @@ export function MonthCalendar({ parts, month, profileId, today, selected, classN
           return {
             label: `${longDate(d)}${isToday ? ', today' : ''}: ${RATING_WORD[p.rating]}, score ${scorePercent(p.score)}`,
             className: cn(
-              'aspect-square flex-col gap-0.5 font-semibold ring-1 ring-inset hover:brightness-110',
+              'aspect-square min-h-11 min-w-11 flex-col gap-0.5 font-semibold ring-1 ring-inset hover:brightness-110',
               d === selected && 'shadow-[0_0_0_2px_var(--accent)]',
             ),
             style: { background: tone.bg, color: 'var(--text)', '--tw-ring-color': isToday ? 'var(--accent)' : tone.border } as CSSProperties,

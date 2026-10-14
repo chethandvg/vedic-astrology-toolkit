@@ -26,7 +26,7 @@ export interface ChartSwitcherProps extends Omit<ChartProps, 'varga'> {
 const QUICK: readonly number[] = [1, 9, 10]
 
 const segment = clsx(
-  'rounded-full px-3 py-1.5 text-sm font-medium text-(--text-muted) transition-colors outline-none',
+  'rounded-full px-3 h-11 md:h-8 text-sm font-medium text-(--text-muted) transition-colors outline-none',
   'hover:text-(--text) focus-visible:ring-2 focus-visible:ring-(--accent)',
   // The app's one selected look (as SegmentedControl and the nav): soft fill, accent ring and text.
   'data-[state=on]:bg-(--selected-bg) data-[state=on]:text-(--accent-text) data-[state=on]:shadow-sm data-[state=on]:ring-1 data-[state=on]:ring-(--accent)/45',
@@ -77,7 +77,7 @@ export function ChartSwitcher({
             <select
               id={selectId} value={isQuick ? '' : String(division)} onChange={(e) => setVarga(Number(e.target.value))}
               className={clsx(
-                'w-full appearance-none truncate rounded-full border border-(--surface-border) bg-(--bg-elevated) py-2 pl-3.5 pr-8 text-sm font-medium outline-none',
+                'w-full h-11 md:h-8 appearance-none truncate rounded-full border border-(--surface-border) bg-(--bg-elevated) pl-3.5 pr-8 text-sm font-medium outline-none',
                 'focus-visible:ring-2 focus-visible:ring-(--accent)',
                 isQuick ? 'text-(--text-muted)' : 'text-(--text)',
               )}

@@ -182,7 +182,7 @@ function ProfileForm({ existing }: { existing?: Profile }) {
                 </Field>
                 <button
                   type="button"
-                  className="absolute -top-2 right-0 rounded-md px-2 py-1.5 text-xs font-medium text-[var(--accent-text)] underline-offset-4 hover:underline"
+                  className="absolute -top-2 right-0 min-h-11 rounded-md px-3 py-2 text-xs font-medium text-[var(--accent-text)] underline-offset-4 hover:underline"
                   onClick={() => setForm((f) => ({ ...f, withSeconds: !f.withSeconds, time: f.withSeconds ? f.time.slice(0, 5) : f.time }))}
                 >
                   {form.withSeconds ? 'Hide seconds' : 'Add seconds'}
