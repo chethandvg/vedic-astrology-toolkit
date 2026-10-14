@@ -129,3 +129,32 @@ test('the first forecast after creating a profile is quick', async ({ page }) =>
   report('Today, from "Save and see today" to rating', ms)
   expect(ms).toBeLessThan(3_000) // target 1.5 s
 })
+
+test('the Content Security Policy blocks nothing the app needs', async ({ page, context }) => {
+  await seed(context)
+  // Record every violation the browser reports, from the first script onwards.
+  await context.addInitScript(() => {
+    const store: string[] = []
+    ;(window as unknown as { __csp: string[] }).__csp = store
+    document.addEventListener('securitypolicyviolation', (e) => store.push(`${e.violatedDirective} ${e.blockedURI}`))
+  })
+  const consoleViolations: string[] = []
+  page.on('console', (m) => { if (/Content Security Policy/i.test(m.text())) consoleViolations.push(m.text()) })
+  await page.goto('./')
+  const csp = await page.locator('meta[http-equiv="Content-Security-Policy"]').getAttribute('content')
+  expect(csp).toContain("default-src 'self'")
+  for (const view of ['today', 'week', 'month', 'year'] as const) {
+    await page.goto(`./#/p/${ID}/${view}`)
+    await shownAt(page, view)
+  }
+  for (const route of [`#/p/${ID}/chart`, `#/p/${ID}/report`, '#/match', '#/new', '#/settings', '#/about']) {
+    await page.goto(`./${route}`)
+    await page.locator('main h1').first().waitFor({ timeout: 30_000 })
+  }
+  // City search loads the bundled table with fetch (connect-src).
+  await page.goto('./#/new')
+  await page.getByRole('combobox').first().fill('Mysuru')
+  await expect(page.getByRole('option').first()).toBeVisible({ timeout: 15_000 })
+  const recorded = await page.evaluate(() => (window as unknown as { __csp: string[] }).__csp)
+  expect([...recorded, ...consoleViolations]).toEqual([])
+})
