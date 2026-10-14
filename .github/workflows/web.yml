@@ -4,8 +4,8 @@ on:
   push:
     branches: [main, web-app]
     paths: ['web/**', '.github/workflows/web.yml']
+  # No path filter for pull requests: these checks are required on main, so they must always report.
   pull_request:
-    paths: ['web/**', '.github/workflows/web.yml']
   workflow_dispatch:
 
 permissions:
