@@ -7,6 +7,8 @@ license: AGPL-3.0-or-later
 repository-code: "https://github.com/chethandvg/vedic-astrology-toolkit"
 authors:
   - given-names: Chethan
+    alias: chethandvg
+    website: "https://github.com/chethandvg"
 keywords:
   - vedic astrology
   - jyotish

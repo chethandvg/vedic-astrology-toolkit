@@ -1,0 +1,63 @@
+Vedic Astrology Toolkit and the Jyotish Daily web app
+Copyright (C) 2026 Chethan (https://github.com/chethandvg)
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version, together with the additional terms below. See LICENSE.txt.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.
+
+
+ADDITIONAL TERMS (GNU AGPL version 3, section 7)
+
+These terms apply to the material whose copyright is held by the author named
+above. They are permitted additional terms under section 7 of the license.
+
+(b) Attribution. You must preserve this NOTICE file, the copyright notices in
+    the source files, and the author attribution
+        "Originally created by Chethan (https://github.com/chethandvg)"
+    in source distributions and in the Appropriate Legal Notices (for example
+    an "About" screen) of any interactive user interface based on this work.
+
+(c) Origin. You must not misrepresent the origin of this material. Modified
+    versions must be marked in reasonable ways as different from the original
+    version, for example by using a different name and stating that changes
+    were made.
+
+(d) Publicity. You may not use the author's name to endorse or promote
+    products or services based on this work without prior written permission,
+    except to give the attribution required above.
+
+(e) Trade names. This license does not grant rights to use the names
+    "Jyotish Daily" or "Vedic Astrology Toolkit" for modified versions or
+    for products or services based on this work.
+
+
+THIRD-PARTY COMPONENTS (each keeps its own license and notices)
+
+- Swiss Ephemeris, Copyright (C) Astrodienst AG, Zurich. Used under the GNU
+  AGPL (compiled to WebAssembly in web/wasm, and through pyswisseph).
+- pyswisseph, Copyright (C) Stanislas Marquis. GNU AGPL.
+- GeoNames city data (web/public/data/cities.json). CC BY 4.0,
+  https://www.geonames.org/.
+- Inter and Fraunces fonts. SIL Open Font License 1.1.
+- JavaScript packages in web/package.json and Python packages in
+  requirements.txt keep their own licenses (mostly MIT and Apache-2.0).
+- Rules are implemented from P. V. R. Narasimha Rao, "Vedic Astrology: An
+  Integrated Approach". The book is not included and remains its author's
+  copyrighted work.
+
+
+CONTRIBUTIONS
+
+Contributions are accepted under the Contributor License Agreement in CLA.md.
+
+
+REPORTING MISUSE
+
+If you find a copy of this work that removes the author attribution or
+presents it as someone else's original work, please open an issue at
+https://github.com/chethandvg/vedic-astrology-toolkit/issues.

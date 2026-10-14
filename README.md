@@ -240,7 +240,7 @@ Please run `python verify.py` before opening a pull request. It runs the suite a
 
 ## ⚖️ License and credits
 
-Code is licensed under **AGPL-3.0-or-later** ([LICENSE.txt](LICENSE.txt)). Swiss Ephemeris (via [pyswisseph](https://github.com/astrorigin/pyswisseph)) and the optional benchmark dependencies keep their own licenses. Rules are implemented from P. V. R. Narasimha Rao's *Vedic Astrology: An Integrated Approach*; the book and other cited sources remain their authors' copyrighted works.
+**Copyright © 2026 Chethan ([@chethandvg](https://github.com/chethandvg)).** Code is licensed under **AGPL-3.0-or-later** ([LICENSE.txt](LICENSE.txt)) with additional attribution terms under AGPL section 7 ([NOTICE](NOTICE)): copies and modified versions must keep the author credit, must not misrepresent the origin, and must not use the names "Jyotish Daily" or "Vedic Astrology Toolkit". Swiss Ephemeris (via [pyswisseph](https://github.com/astrorigin/pyswisseph)) and the optional benchmark dependencies keep their own licenses. Rules are implemented from P. V. R. Narasimha Rao's *Vedic Astrology: An Integrated Approach*; the book and other cited sources remain their authors' copyrighted works.
 
 *Unofficial project, not affiliated with or endorsed by P. V. R. Narasimha Rao, Jagannatha Hora or PyJHora. Astrology is a traditional practice. This software performs calculations; it does not provide medical, legal or financial advice.*
 
