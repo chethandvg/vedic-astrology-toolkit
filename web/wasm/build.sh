@@ -3,7 +3,9 @@
 # The C sources are taken from the pyswisseph 2.10.3.2 sdist, the exact
 # library used by the Python toolkit, so both engines share one code base.
 # Run from web/wasm:  docker run --rm -v "$PWD:/src" -w /src emscripten/emsdk:6.0.12 sh build.sh
+# SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 # SPDX-License-Identifier: AGPL-3.0-or-later
+# Additional terms under AGPL section 7 apply; see NOTICE.
 set -eu
 SDIST_URL="https://files.pythonhosted.org/packages/source/p/pyswisseph/pyswisseph-2.10.3.2.tar.gz"
 SDIST_SHA256="c54c305e83dbd5d2b71e58d8a69d8ee41de24c4d3328ce09e2af860a3537624d"

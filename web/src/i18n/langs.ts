@@ -1,6 +1,8 @@
 // The interface languages, their names in their own script and the BCP 47 tags used for <html
 // lang> and Intl formatting. Pure data and helpers: safe for the engine worker and for tests.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 
 export const LANGS = ['en', 'kn', 'hi', 'ta', 'te'] as const
 export type Lang = (typeof LANGS)[number]

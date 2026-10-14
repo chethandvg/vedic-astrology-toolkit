@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 // Kundli matching (engine/matching.ts): table invariants checked against the published tables,
 // symmetric and directional kootas, worked examples from published documentation, the ten
 // poruthams, Manglik cases and the tone of the matching texts.

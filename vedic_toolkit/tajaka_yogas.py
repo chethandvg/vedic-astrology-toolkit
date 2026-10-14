@@ -2,7 +2,9 @@
 
 The PVR profile intentionally differs from historical translation-of-light
 Nakta. Angular perfection and post-ingress conditions need future ephemerides.
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 from itertools import combinations
 from . import core as c,tajaka as t

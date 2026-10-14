@@ -3,7 +3,9 @@
 // Requests are keyed by the birth details that change results (not the name or place label),
 // the calculation settings and the timings place, so changing any of them recomputes, and
 // results are cached by that key, so returning to a view or a date is instant.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useEffect, useSyncExternalStore } from 'react'
 import type { ChartData, ForecastResult } from '@/engine/api'
 import type { ForecastExtras } from '@/engine/extras'

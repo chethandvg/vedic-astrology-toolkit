@@ -1,6 +1,8 @@
 // What each graha and each house counted from the Moon stands for, in plain words.
 // Original wording; the significations themselves are the standard classical ones.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { Planet } from '@/engine/types'
 import type { ByHouse } from './format'
 

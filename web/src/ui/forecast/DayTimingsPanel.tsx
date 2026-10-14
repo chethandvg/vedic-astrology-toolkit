@@ -1,7 +1,9 @@
 // The Vedic day from sunrise to the next sunrise: a bar with Rahu Kalam, Yamaganda,
 // Gulika Kalam, Durmuhurta and Abhijit marked and a "now" marker, the same windows as a
 // list, and tabs with the 16 choghadiyas and 24 horas.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Clock, Moon, Sunrise, Sunset } from 'lucide-react'
 import { useState, type CSSProperties, type ReactNode } from 'react'
 import { addDays, formatJd, localToJd } from '@/engine/time'

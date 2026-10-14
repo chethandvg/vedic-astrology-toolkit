@@ -2,7 +2,9 @@
 // reloads keep it, plus a shared minute clock for "now" markers.
 // Wouter's hash navigation keeps the query in location.search (".../?date=2026-10-20#/p/id/today"),
 // so links built here carry the date in the same place and survive copy and paste.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useSyncExternalStore, type MouseEvent } from 'react'
 import { useLocation, useSearch } from 'wouter'
 import { epochMsToJd, todayIn } from '@/engine/time'

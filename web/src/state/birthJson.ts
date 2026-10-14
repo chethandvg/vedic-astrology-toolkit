@@ -3,7 +3,9 @@
 // settings}. A naive datetime plus an IANA "timezone" is used for zone names;
 // a fixed offset is written into the datetime itself, which Python's
 // datetime.fromisoformat accepts even with seconds (local mean time).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { fixedOffsetMinutes, isValidTimeZone, localToUtc } from '@/engine/time'
 import type { BirthInput, Settings } from '@/engine/types'
 import { formatOffset } from './birth'

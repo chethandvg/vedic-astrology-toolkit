@@ -1,7 +1,9 @@
 // The Moon's moves during a day as one row per minute: sign and nakshatra boundaries meet every
 // 30 degrees, and Chandrashtama begins and ends exactly at a sign change, so the events of one
 // instant read as a single row ("Into Leo and Magha nakshatra") with a Chandrashtama note.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { names, t } from '@/i18n'
 import { jdToLocal } from '@/engine/time'
 import type { TimedEvent } from '@/engine/types'

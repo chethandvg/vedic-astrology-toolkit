@@ -6,7 +6,9 @@
 // "Gocara: results of transits from the Moon" (vedic-astrology.net), whose tables give every pair
 // below, the vipareeta pairs and both father-son exemptions; Rao, Vedic Astrology: An Integrated
 // Approach, ch. 25.2 and 26.3 (PDF 282-287, 314).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { isSevenPlanet, SEVEN, type Ashtakavarga } from './ashtakavarga'
 import { houseFrom } from './core'
 import { PLANETS, type BodyPosition, type Effect, type Planet, type SignIndex } from './types'

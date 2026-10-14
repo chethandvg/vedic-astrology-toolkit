@@ -3,7 +3,9 @@
 // Conventions: longitudes are sidereal degrees [0, 360); signs are indices
 // 0 = Aries ... 11 = Pisces; houses are 1..12; instants are Julian Day UT1
 // numbers ("jd"); civil dates are ISO strings "YYYY-MM-DD" in the user's zone.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 
 export const PLANETS = ['Sun', 'Moon', 'Mars', 'Mercury', 'Jupiter', 'Venus', 'Saturn', 'Rahu', 'Ketu'] as const
 export type Planet = (typeof PLANETS)[number]

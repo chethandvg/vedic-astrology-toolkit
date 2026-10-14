@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 // Design-system primitives. Colours come from the semantic CSS variables in
 // src/index.css and src/ui/layout/shell.css, so every component follows the theme.
 export { Badge, badgeVariants, type BadgeTone } from './Badge'

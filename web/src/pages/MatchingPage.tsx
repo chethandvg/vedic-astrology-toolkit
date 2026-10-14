@@ -1,7 +1,9 @@
 // Kundli matching: pick two saved profiles, then the 36-point Ashtakoota score with its koota
 // table and dosha notes, the ten South Indian poruthams and the Manglik check for each partner.
 // The match is computed in the engine worker (ui/matching/useMatch, engineApi.match).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Flame, HeartHandshake, Info, ListChecks, ScrollText, UserPlus, Users } from 'lucide-react'
 import { Link } from 'wouter'
 import { T } from '@/content/active'

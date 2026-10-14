@@ -1,5 +1,7 @@
 """Transparent screening of sampled electional times using Table 79.
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 from . import core as c
 from .astronomy import from_jd

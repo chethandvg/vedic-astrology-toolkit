@@ -3,7 +3,9 @@
 // annual chart at the birthplace, Muntha, Harsha bala, Pancha- and Dwadasa-vargeeya bala,
 // year lord, the 36 sahams, structural Tajaka yogas with ephemeris checks, Mudda and
 // Patyayini dasas. Pure data in, plain data out; no DOM.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { SEVEN, type SevenPlanet } from './ashtakavarga'
 import { castChart, POLAR_WARNING } from './chart'
 import { houseFrom, panchanga, SIGN_LORDS, signOf, VARGAS, vargaSign, VIM_ORDER, VIM_YEARS } from './core'

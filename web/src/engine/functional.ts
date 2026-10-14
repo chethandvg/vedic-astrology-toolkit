@@ -2,7 +2,9 @@
 // ported from functional_nature in vedic_toolkit/interpretation.py, which
 // transcribes Table 30 of Rao's book (PDF 152-153). The Moon's role for Aries,
 // Libra and Capricorn rising depends on its phase; the nodes get no role.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { Planet, SignIndex } from './types'
 
 export type FunctionalRole = 'benefic' | 'neutral' | 'malefic' | 'unclassified'

@@ -1,5 +1,7 @@
 """Astronomical inputs for the explicitly named Raman/Sripati strength profile.
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 from datetime import datetime,timezone,timedelta
 import math

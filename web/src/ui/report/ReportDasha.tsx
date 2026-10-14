@@ -1,6 +1,8 @@
 // Report section for the Vimsottari dasha: the nine mahadashas of the cycle and the
 // antardashas of the running mahadasha, with the running periods marked and their themes.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { T } from '@/content/active'
 import { useT } from '@/i18n'
 import { fullDate } from '@/i18n/format'

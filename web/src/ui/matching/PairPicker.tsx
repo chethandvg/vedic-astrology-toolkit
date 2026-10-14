@@ -1,6 +1,8 @@
 // Choose the two saved profiles to match, in the groom's and the bride's roles, with a swap and a
 // link to add a partner through the usual new-profile form.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { ArrowLeftRight, UserPlus } from 'lucide-react'
 import { useId } from 'react'
 import { Link } from 'wouter'

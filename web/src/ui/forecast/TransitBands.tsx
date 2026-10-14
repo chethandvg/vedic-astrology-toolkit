@@ -1,7 +1,9 @@
 // Year timelines: the slow grahas' signs (with houses from the natal Moon), Saturn's named
 // phases and the dasha periods, drawn as bands across January to December, each followed by
 // the same facts in words.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { CSSProperties, ReactNode } from 'react'
 import { T } from '@/content/active'
 import type { SaturnPeriod } from '@/engine/saturn'

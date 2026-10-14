@@ -1,7 +1,9 @@
 // The headline card of a forecast: the rating word in its colour over a soft glow, a score
 // dial, the headline, what the rating is made of (the weight of a day's reasons, or how many
 // days or months rate which way) and a one-line "why" built from the strongest reasons.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { motion, useReducedMotion } from 'motion/react'
 import { useId } from 'react'
 import type { Forecast, Rating } from '@/engine/types'

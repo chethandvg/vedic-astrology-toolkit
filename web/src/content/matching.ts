@@ -1,7 +1,9 @@
 // Kundli matching texts: what each koota and porutham looks at, what its result suggests, the
 // Manglik notes, the score bands and the method notes. Original wording, kept calm and practical:
 // matching is one traditional input among many, never a verdict on two people.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { NAKSHATRA_NAMES, SIGN_NAMES } from '@/engine/core'
 import type { DoshaException, KootaKey, ManglikCancellation, ManglikOutcome, PoruthamKey, PoruthamStatus, ScoreBand } from '@/engine/matching'
 import type { Planet, SignIndex } from '@/engine/types'

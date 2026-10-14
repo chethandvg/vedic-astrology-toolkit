@@ -4,7 +4,9 @@ Regenerates the fixtures into a temporary folder and compares them with the
 committed ones: strings, integers and booleans exactly, floats within 1e-9
 (compilers on different platforms may differ in the last digits).
 Run from the repository root:  python web/scripts/compare_fixtures.py
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 from __future__ import annotations
 

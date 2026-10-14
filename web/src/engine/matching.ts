@@ -5,7 +5,9 @@
 //
 // Direction: the classical tables are directional (groom and bride). matchCharts(a, b) reads `a`
 // in the groom's role and `b` in the bride's; the UI lets people swap the roles.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { T } from '../content/active'
 import { degreeInSign, houseFrom, SIGN_LORDS, SIGN_NAMES, signOf } from './core'
 import type { Chart, Planet, SignIndex } from './types'

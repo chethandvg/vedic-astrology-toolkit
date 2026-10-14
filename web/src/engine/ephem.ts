@@ -1,6 +1,8 @@
 // Sidereal positions from Swiss Ephemeris, mirroring Ephemeris.positions in
 // vedic_toolkit/astronomy.py (geocentric apparent longitude, whole-sign houses).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { degreeInSign, nakshatra, norm, signOf } from './core'
 import { SE, swe } from './swe'
 import { PLANETS, type Ayanamsa, type BodyPosition, type Body, type Planet, type Settings } from './types'

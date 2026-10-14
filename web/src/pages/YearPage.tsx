@@ -1,7 +1,9 @@
 // Year: the year's rating, twelve months at a glance, the big transits (Jupiter, Saturn,
 // Rahu and Ketu with houses from the Moon, plus Saturn's phases), dasha periods within the
 // year, the Muntha and the annual (Varshaphal) chart of the Tajaka year, and the reasons.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { BarChart3, Flag, Hourglass, Orbit } from 'lucide-react'
 import type { RouteComponentProps } from 'wouter'
 import { addDays, localToJd } from '@/engine/time'

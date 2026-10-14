@@ -1,7 +1,9 @@
 // Languages: every interface key present in every locale with the same {placeholders}, the
 // interpretation packs shaped like the English one, and forecasts that come out in the chosen
 // script (with English back when the pack is switched back).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { afterAll, beforeAll, describe, expect, it } from 'vitest'
 import { EN_CONTENT, setContentPack, type ContentPack } from '@/content/active'
 import { castChart } from '@/engine/chart'

@@ -1,7 +1,9 @@
 // Extension slots of the report for sections computed elsewhere: yogas and planetary strengths.
 // Both render nothing until given data (or children), so the report never prints an empty section;
 // the page lists them in its contents only when hasSlotContent() says they have something.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { ReactNode } from 'react'
 import type { Planet } from '@/engine/types'
 import { useT } from '@/i18n'

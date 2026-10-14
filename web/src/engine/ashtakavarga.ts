@@ -1,6 +1,8 @@
 // Ashtakavarga (Parasara's scheme), ported from calculate() in
 // vedic_toolkit/ashtakavarga.py, Tables 19-26 of P. V. R. Narasimha Rao's book (PDF 134-138).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { advanceSign } from './core'
 import type { Body, Planet, SignIndex } from './types'
 

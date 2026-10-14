@@ -1,5 +1,7 @@
 // Small helpers for showing day timings.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { formatJd } from '@/engine/time'
 import type { DayTimings, TimeWindow } from '@/engine/types'
 import { names, t } from '@/i18n'

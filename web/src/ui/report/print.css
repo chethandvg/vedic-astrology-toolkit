@@ -2,7 +2,9 @@
    page start) that prints to A4 through the browser. The paper always uses the light theme's
    values, whatever the app theme: the tokens below repeat the light values of src/index.css,
    src/ui/layout/shell.css and src/ui/chart/chart.css (keep them in step), tuned for white paper.
-   SPDX-License-Identifier: AGPL-3.0-or-later */
+   SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+   SPDX-License-Identifier: AGPL-3.0-or-later
+   Additional terms under AGPL section 7 apply; see NOTICE. */
 
 .report-paper {
   --bg: #ffffff;

@@ -1,6 +1,8 @@
 // Manglik (Kuja) dosha for each partner: Mars's house from the ascendant, the Moon and Venus, the
 // exceptions that hold, and what the pair's combination means in the tradition.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { T } from '@/content/active'
 import { t, useT } from '@/i18n'
 import type { ManglikMatch, ManglikReport } from '@/engine/matching'

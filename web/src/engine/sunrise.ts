@@ -1,6 +1,8 @@
 // Sunrise-based Vedic day, ported from Ephemeris.sunrise_context in
 // vedic_toolkit/astronomy.py: upper limb, standard refraction (1013.25 hPa, 15 °C).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { SE, swe } from './swe'
 import { jdToLocal, localToJd, weekdayOf } from './time'
 import type { SolarDay } from './types'

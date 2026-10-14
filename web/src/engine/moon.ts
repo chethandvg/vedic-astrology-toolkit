@@ -1,6 +1,8 @@
 // Daily factors of the transiting Moon measured from the natal Moon: Tara Bala
 // (nakshatra count), Chandra Bala (sign count) and Chandrashtama (8th sign).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { advanceSign, houseFrom, nakshatra, norm, signOf } from './core'
 import { moonLongitude } from './ephem'
 import { bisectInstant } from './search'

@@ -1,6 +1,8 @@
 // A vertical timeline of transit and dasha events at local times in the timings place's
 // zone; longer periods group them under their dates and start collapsed after a few.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useState } from 'react'
 import { formatJd, jdToLocal, weekdayOf } from '@/engine/time'
 import type { TimedEvent } from '@/engine/types'

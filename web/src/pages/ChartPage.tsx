@@ -1,7 +1,9 @@
 // Birth chart: North or South Indian chart with divisional charts, birth details with an
 // export for astrologers, the birth panchanga, planet positions, planetary strength (Shadbala,
 // Vimsopaka, functional nature), the yogas formed and the Vimsottari timeline.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Download, Gauge, LayoutGrid, ListTree, MapPin, Pencil, Printer, Sparkles, Stars } from 'lucide-react'
 import type { ReactNode } from 'react'
 import { Link, type RouteComponentProps } from 'wouter'

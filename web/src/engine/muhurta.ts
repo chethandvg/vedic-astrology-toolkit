@@ -5,7 +5,9 @@
 // Prokerala's Ujjain pages agree apart from Saturday's durmuhurta. Prokerala's sunrise
 // is about 3 minutes later and its sunset earlier (another sunrise convention), so its
 // clock times differ slightly; we follow Drik Panchang (upper limb, refraction).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { solarDayAt, solarDayForDate } from './sunrise'
 import { jdToLocal } from './time'
 import type { DayTimings, Hora, Planet, SolarDay, TimeWindow, WindowQuality } from './types'

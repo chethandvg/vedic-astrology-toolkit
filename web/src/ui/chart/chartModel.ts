@@ -1,6 +1,8 @@
 // Chart data shaped for drawing: occupants per house for a varga, the fitted label
 // layout and a plain-language summary for screen readers.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { formatDegree, houseFrom } from '@/engine/core'
 import { PLANETS, type Body, type Chart, type Planet, type SignIndex } from '@/engine/types'
 import { fitLabels, labelWidthEm, type LabelFit, type Region } from './layout'

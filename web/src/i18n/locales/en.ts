@@ -1,6 +1,8 @@
 // English interface messages: the source every other language translates. Keys are grouped by
 // screen; {name} marks a placeholder, and keys ending in _one / _other are plural pairs (tp()).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 
 export const en = {
   // Shared

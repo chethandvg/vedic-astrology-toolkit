@@ -2,7 +2,9 @@
 // app's own compact forms, "Wed 14 Oct"). Pure and cached: used on the main thread and by the
 // interpretation packs in the engine worker. Dates are civil "YYYY-MM-DD" strings, formatted in
 // UTC so no time zone can move them to another day.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 
 const cache = new Map<string, Intl.DateTimeFormat>()
 

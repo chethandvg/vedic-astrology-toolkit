@@ -4,7 +4,9 @@ Run from the repository root with the toolkit's dependencies installed:
     python web/scripts/gen_fixtures.py
 Writes web/tests/fixtures/*.json. Births are book examples plus seeded synthetic
 cases; none is a real person's private data.
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 from __future__ import annotations
 

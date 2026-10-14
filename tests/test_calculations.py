@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Additional terms under AGPL section 7 apply; see NOTICE.
 """Independent book fixtures plus numerical boundary and astronomy checks.
 PDF page numbers refer to the supplied 442-page edition, not the web edition.
 """

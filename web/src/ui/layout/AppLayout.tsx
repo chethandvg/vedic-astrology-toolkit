@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { CalendarDays, CalendarRange, HeartHandshake, LayoutGrid, Orbit, Sun, type LucideIcon } from 'lucide-react'
 import { motion } from 'motion/react'
 import { useEffect, useRef, useState, type ReactNode } from 'react'

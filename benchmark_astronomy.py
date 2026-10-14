@@ -2,7 +2,9 @@
 
 The kernel is not bundled. Get de440s.bsp from NASA JPL's public SSD server.
 Optional dependencies: skyfield==1.55, jplephem==2.24.
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 import argparse
 import hashlib

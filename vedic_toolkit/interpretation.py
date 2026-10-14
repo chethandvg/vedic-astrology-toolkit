@@ -1,6 +1,8 @@
 """Source-explicit qualification evidence, not event or personality conclusions.
 PDF 108, 115-116, 124-126, 131-132, 152-154.
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 from . import core as c, strengths as st
 from .yogas import all3,any3

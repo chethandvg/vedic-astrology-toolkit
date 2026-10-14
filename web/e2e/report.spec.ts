@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { expect, test as base, type Page } from '@playwright/test'
 
 // The printable Kundli report for a seeded profile with a fixed clock (14 October 2026, 12:30 in

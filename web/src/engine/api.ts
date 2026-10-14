@@ -4,7 +4,9 @@
 // Promise-returning signature automatically. Arguments and results must be
 // structured-clone friendly (plain objects, arrays, strings, numbers): no
 // functions or class instances, and thrown errors keep only name and message.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { EN_CONTENT, setContentPack } from '../content/active'
 import { loadContentPack } from '../i18n/content'
 import type { Lang } from '../i18n/langs'

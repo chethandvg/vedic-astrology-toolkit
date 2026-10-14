@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Clock, Globe, History, MapPin, Pencil, ShieldCheck, UserRound, UserX, type LucideIcon } from 'lucide-react'
 import { RadioGroup } from 'radix-ui'
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from 'react'

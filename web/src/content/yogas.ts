@@ -2,7 +2,9 @@
 // All wording is original. Names keep the classical Sanskrit label where there is one, followed by
 // a short description; numbered rules get a descriptive title. Meanings speak of traditional
 // tendencies, never certainties, and the challenging ones stay calm and practical.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { YogaCategory } from '@/engine/yogas'
 
 export type YogaNature = 'supportive' | 'challenging' | 'mixed'

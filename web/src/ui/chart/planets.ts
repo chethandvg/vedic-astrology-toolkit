@@ -1,5 +1,7 @@
 // Display metadata for the nine grahas and the ascendant, shared by the chart components.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { Body } from '@/engine/types'
 
 /** Two-letter labels used inside the charts (the convention of most Indian chart software). */

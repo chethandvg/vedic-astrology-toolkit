@@ -1,7 +1,9 @@
 // Saturn's transit phases counted from the natal Moon sign: Sade Sati (12th, 1st, 2nd),
 // Ashtama Shani (8th) and Ardhashtama Shani (4th). Whole-sign counting from the Janma rasi, as
 // mainstream panchangs (Drik Panchang, Jagannatha Hora) publish them.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { houseFrom } from './core'
 import { cellChanges } from './events'
 import type { Settings, SignIndex } from './types'

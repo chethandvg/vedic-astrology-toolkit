@@ -1,6 +1,8 @@
 // South Indian chart: signs are fixed in a 4 x 4 ring (Pisces top-left, clockwise), the
 // lagna sign is marked with a diagonal across its corner, and the centre holds a caption.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useId, useMemo } from 'react'
 import { clsx } from 'clsx'
 import { useT } from '@/i18n'

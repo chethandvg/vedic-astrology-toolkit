@@ -1,7 +1,9 @@
 // Civil time <-> Julian Day UT1, mirroring local_time/to_jd/from_jd in
 // vedic_toolkit/astronomy.py: nonexistent wall times are rejected and a
 // repeated wall time needs fold 0 (first) or 1 (second).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Temporal } from 'temporal-polyfill'
 import { swe } from './swe'
 import type { BirthInput } from './types'

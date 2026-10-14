@@ -2,7 +2,9 @@
 
 The first full mahadasa may start before birth. Never subdivide only its balance.
 Calendar conversion lives in astronomy.dated; rasi systems use exact solar arcs.
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 from fractions import Fraction as F
 from . import core as c

@@ -1,6 +1,8 @@
 // Headline of a match: the 36-point dial with the band thresholds, the band word in its tone and
 // a row of chips for the checks people look at next (Nadi, Bhakoot, the ten poruthams, Manglik).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { CircleAlert, CircleCheck, CircleMinus, type LucideIcon } from 'lucide-react'
 import { motion, useReducedMotion } from 'motion/react'
 import { useId } from 'react'

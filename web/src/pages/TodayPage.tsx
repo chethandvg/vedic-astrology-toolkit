@@ -1,6 +1,8 @@
 // Today: the day's rating and reasons, what is running right now, sunrise-based timings
 // (Rahu Kalam, choghadiya, horas) for the user's current place, the Moon and the dasha.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { CalendarClock, Milestone } from 'lucide-react'
 import type { RouteComponentProps } from 'wouter'
 import { addDays } from '@/engine/time'

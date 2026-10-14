@@ -1,7 +1,9 @@
 // Render the PNG icons and the social preview image from public/favicon.svg
 // with headless Chromium (Playwright). Run from web/: node scripts/render_icons.mjs
 // Writes public/pwa-192.png, pwa-512.png, apple-touch-icon.png and og-image.png.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { chromium } from '@playwright/test'

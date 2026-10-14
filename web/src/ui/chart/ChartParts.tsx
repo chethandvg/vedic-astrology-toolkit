@@ -1,6 +1,8 @@
 // Pieces shared by the North and South Indian charts: props, SVG house labels and the
 // visually hidden table that gives screen-reader users the same data as the drawing.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useLayoutEffect, useRef, useState, type RefObject } from 'react'
 import { useT } from '@/i18n'
 import type { Chart, Planet } from '@/engine/types'

@@ -2,7 +2,9 @@
 
 No personality, wealth, disease, death or life-event conclusion follows from a hit.
 Strength judgments are supplied separately; None never masquerades as False/True.
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 from itertools import combinations
 from . import core as c

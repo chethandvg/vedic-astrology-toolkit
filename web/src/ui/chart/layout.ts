@@ -2,7 +2,9 @@
 // layouts and a label fitter that keeps crowded houses legible by stacking, adding
 // columns, shrinking and finally shortening labels. No DOM access, so it runs in Node
 // tests; text widths are estimated from Inter's advance widths (slightly generous).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { SignIndex } from '@/engine/types'
 
 export interface Point { x: number; y: number }

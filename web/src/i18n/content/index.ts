@@ -1,6 +1,8 @@
 // Loaders of the interpretation packs, one lazily loaded chunk per language, shared by the main
 // thread (matching, natal and report texts) and the engine worker (forecast texts).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { ContentPack } from '@/content/pack'
 import type { Lang } from '../langs'
 

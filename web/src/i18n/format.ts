@@ -1,7 +1,9 @@
 // Dates of Julian days in the current language, for the UI: English keeps engine/time.ts
 // formatJd's forms ("2 Jun 2027"), the Indian languages use Intl. Clock times stay 24-hour
 // digits ("14:05") everywhere.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { formatJd, jdToLocal } from '@/engine/time'
 import { intlDates } from './intl'
 import { LANG_INFO } from './langs'

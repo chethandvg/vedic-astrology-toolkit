@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { expect, test } from '@playwright/test'
 
 // A page that fails to load or render shows a recovery card inside the app's frame instead of

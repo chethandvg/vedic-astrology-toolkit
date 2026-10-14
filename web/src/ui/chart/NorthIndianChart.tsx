@@ -1,6 +1,8 @@
 // North Indian (diamond) chart: houses are fixed, the lagna is the top-centre diamond,
 // houses run anticlockwise and each house shows its sign number (1 = Aries).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useId, useMemo } from 'react'
 import { clsx } from 'clsx'
 import { useT } from '@/i18n'

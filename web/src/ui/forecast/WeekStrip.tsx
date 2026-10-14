@@ -1,6 +1,8 @@
 // The seven days of a week as rating-coloured pills (tap opens that day), and the week's
 // best and gentlest days.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Leaf, Sparkles } from 'lucide-react'
 import type { CSSProperties } from 'react'
 import { jdToLocal, weekdayOf } from '@/engine/time'

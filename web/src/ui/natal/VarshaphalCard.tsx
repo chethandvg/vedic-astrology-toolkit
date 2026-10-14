@@ -1,7 +1,9 @@
 // The Tajaka annual chart (Varshaphal) of the year that begins in the calendar year shown: when it
 // starts, its ascendant, the Muntha, the year lord and why, the running Mudda dasha period and a
 // few key sahams with their houses in the annual chart.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { CalendarClock } from 'lucide-react'
 import type { ReactNode } from 'react'
 import { T } from '@/content/active'

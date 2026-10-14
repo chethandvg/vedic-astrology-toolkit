@@ -1,7 +1,9 @@
 // Civil-date helpers for the forecast screens: period ranges, stepping and labels.
 // Dates are "YYYY-MM-DD" strings in the timings place's zone. Weeks start on Sunday,
 // as in Indian panchang calendars and the engine's weekday numbering (0 = Sunday).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { addDays, addMonths, daysInMonth, weekdayOf } from '@/engine/time'
 import type { Horizon } from '@/engine/types'
 import { languageTag, t, type MessageKey } from '@/i18n'

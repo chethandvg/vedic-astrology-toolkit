@@ -1,7 +1,9 @@
 // Data seam of the matching screen: the match is computed in the engine worker (engineApi.match,
 // which casts both charts once and memoises them) and cached by the birth details that change
 // results and the calculation settings. The chosen pair is remembered in this browser.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useSyncExternalStore } from 'react'
 import type { MatchData } from '@/engine/api'
 import { useEngineQuery } from '@/lib/engine'

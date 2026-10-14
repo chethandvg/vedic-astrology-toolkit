@@ -1,6 +1,8 @@
 // Saturn's named phases from the natal Moon. Original wording, deliberately calm: these are
 // long periods that many people meet several times in life.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { SaturnPhase } from '@/engine/saturn'
 
 export const SATURN_PHASE_TITLE: Readonly<Record<SaturnPhase, string>> = {

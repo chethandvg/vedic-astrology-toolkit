@@ -1,6 +1,8 @@
 // Display metadata shared by the forecast components: colours, icons and words for
 // ratings, effects, event kinds, window qualities and horas.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import {
   ArrowRightLeft, CalendarDays, CircleAlert, CircleCheck, CircleMinus, Compass, Eclipse, Hourglass, Moon, MoonStar, Mountain, Orbit, Redo2,
   Sparkles, Star, Sun, TriangleAlert, Undo2, type LucideIcon,

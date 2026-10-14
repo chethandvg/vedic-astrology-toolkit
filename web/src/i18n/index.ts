@@ -2,7 +2,9 @@
 // loaded on demand (one chunk each for the interface words, the names and the interpretation
 // pack), so English readers download none of them. `t()` works anywhere; components call
 // useT(), which re-renders them when the language changes. Messages use {name} placeholders.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Fragment, createElement, useSyncExternalStore, type ReactNode } from 'react'
 import { intlDates } from './intl'
 import { LANG_INFO, type Lang } from './langs'

@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { expect, test, type BrowserContext, type Page } from '@playwright/test'
 
 // The production build (vite build + vite preview): it keeps working offline once the service

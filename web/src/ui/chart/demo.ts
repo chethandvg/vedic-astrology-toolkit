@@ -3,7 +3,9 @@
 // (copied from the Python golden fixture tests/fixtures/charts.json, which demo.test.ts
 // checks them against); vargas, nakshatras, panchanga and dashas are derived with the
 // pure engine functions, so the 1.9 MB fixture never reaches the app bundle.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { degreeInSign, nakshatra, panchanga, signOf, VARGAS, vargaSign } from '@/engine/core'
 import { vimsottari } from '@/engine/dasha'
 import { BODIES, PRESETS, type Body, type BodyPosition, type Chart, type DashaPeriod, type SignIndex } from '@/engine/types'

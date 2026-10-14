@@ -1,7 +1,9 @@
 // Typed wrapper around Swiss Ephemeris compiled to WebAssembly (see web/wasm).
 // Mirrors the calls made by the Python toolkit (vedic_toolkit/astronomy.py) so
 // results agree to floating-point precision. Single-threaded: call from one worker.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import createSwissEph, { type SwissEphModule, type SwissEphOptions } from '../../wasm/swisseph.mjs'
 
 export const SE = {

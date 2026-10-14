@@ -1,6 +1,8 @@
 // Sentences for the week, month and year summaries. Original wording; arguments are already
 // formatted dates or date lists.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 
 export const PERIOD_TEXT = {
   bestDays: (dates: string): string =>

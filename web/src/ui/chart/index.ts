@@ -1,5 +1,7 @@
 // Chart visuals: North/South Indian charts, planet table, dasha timeline, panchanga card.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 export { NorthIndianChart } from './NorthIndianChart'
 export { SouthIndianChart } from './SouthIndianChart'
 export { ChartSwitcher, type ChartStyle, type ChartSwitcherProps } from './ChartSwitcher'

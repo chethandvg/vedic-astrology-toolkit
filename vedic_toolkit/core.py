@@ -2,7 +2,9 @@
 
 Source: P.V.R. Narasimha Rao, Vedic Astrology: An Integrated Approach,
 uploaded 442-page edition. Page references below refer to PDF pages.
+SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 SPDX-License-Identifier: AGPL-3.0-or-later
+Additional terms under AGPL section 7 apply; see NOTICE.
 """
 from __future__ import annotations
 from fractions import Fraction

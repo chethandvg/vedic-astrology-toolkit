@@ -1,7 +1,9 @@
 // Chart-specific dasha and transit wording from the natal promise (engine/promise.ts): which houses
 // a dasha lord rules and occupies from the lagna, how strong it is, and what that tends to mean for
 // its period. Original wording; tendencies, never certainties.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { FunctionalRole } from '@/engine/functional'
 import type { LordPromise } from '@/engine/promise'
 import type { Effect, Planet } from '@/engine/types'

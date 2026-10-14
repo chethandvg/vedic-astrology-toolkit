@@ -2,7 +2,9 @@
 // the Moon's sign and nakshatra changes. Instants are JD UT1; every function returns the events
 // with startJd <= jd < endJd in time order. Times agree with a brute-force scan of the Python
 // toolkit's Ephemeris to well under a second (tests/events.test.ts).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { NAKSHATRA_NAMES, NAKSHATRA_SPAN, norm, SIGN_NAMES, SIGN_SANSKRIT, signOf } from './core'
 import { planetLongitude } from './ephem'
 import { bisectInstant, DEFAULT_TOLERANCE_DAYS } from './search'

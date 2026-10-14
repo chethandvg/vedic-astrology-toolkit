@@ -1,7 +1,9 @@
 // Page header of the forecast screens: whose forecast, which period, and the date controls.
 // Switching between Today, Week, Month, Year and Chart is the app's own navigation (the
 // header tabs on wide screens, the bottom tab bar on phones), which keeps ?date= as it goes.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { ReactNode } from 'react'
 import type { Horizon } from '@/engine/types'
 import { t, useT } from '@/i18n'

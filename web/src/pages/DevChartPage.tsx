@@ -1,6 +1,8 @@
 // Developer showcase for the chart components, rendered from fixture data (book
 // Example 118) so they can be reviewed without the engine worker. Route: /dev/chart.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useMemo, type ReactNode } from 'react'
 import { pageTitle, useDocumentTitle } from '@/lib/documentTitle'
 import { ChartSwitcher, DashaTimeline, NorthIndianChart, PanchangaCard, PlanetTable, SouthIndianChart, type ChartCaption } from '@/ui/chart'

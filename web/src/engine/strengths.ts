@@ -5,7 +5,9 @@
 // "Graha and Bhava Balas"), Vimsopaka per varga group (BPHS ch. 7) and the
 // functional nature table (functional.ts, Rao PDF 152-153).
 // These are traditional scores defined by texts, not physical quantities.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { degreeInSign, norm, SIGN_LORDS, signOf, houseFrom } from './core'
 import { functionalNature, type FunctionalNature } from './functional'
 import { planetLongitude } from './ephem'

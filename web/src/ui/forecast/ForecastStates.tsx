@@ -1,6 +1,8 @@
 // Loading skeletons, the error card, the missing-profile state and the disclaimer line
 // shared by the forecast screens.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Info, RotateCw, UserX } from 'lucide-react'
 import { Link } from 'wouter'
 import { t, useT } from '@/i18n'

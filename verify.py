@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Additional terms under AGPL section 7 apply; see NOTICE.
 """Run verification and write a machine-readable report; exits nonzero on failure."""
 from pathlib import Path
 import unittest

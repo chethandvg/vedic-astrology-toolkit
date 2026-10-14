@@ -1,5 +1,7 @@
 // Small text helpers shared by the interpretation library and the forecast engine.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 
 /** Twelve entries, one per house 1..12 (index = house - 1). */
 export type ByHouse<T> = readonly [T, T, T, T, T, T, T, T, T, T, T, T]

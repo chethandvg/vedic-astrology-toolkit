@@ -1,7 +1,9 @@
 // Report sections from the year forecast (engine forecast(..., 'year', ...), the same call as the
 // Year page): the year's outlook with its months and leading reasons and the Muntha, then the
 // slow transits with Saturn's phases (Sade Sati status) and the key dates.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { T } from '@/content/active'
 import { useT } from '@/i18n'
 import { fullDate } from '@/i18n/format'

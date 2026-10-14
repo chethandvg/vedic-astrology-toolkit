@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { expect, test, type Page } from '@playwright/test'
 
 // The interface languages: switching from the header menu changes the chrome, the forecast text

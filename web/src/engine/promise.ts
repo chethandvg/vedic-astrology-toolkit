@@ -23,7 +23,9 @@
 //   minimum (strengths.ts), combustion, and the met yogas the planet takes part in (yogas.ts).
 // The weights below are this app's own, chosen so that a typical chart's promises average close to
 // zero (tests/predict.test.ts measures them over the toolkit fixtures).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { yogaContent } from '../content/yogas'
 import { houseFrom, SIGN_LORDS } from './core'
 import { functionalRole, type FunctionalRole } from './functional'

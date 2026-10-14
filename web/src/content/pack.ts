@@ -2,7 +2,9 @@
 // sections in one object, and the shape each language's pack (src/i18n/content) follows. The
 // engine and the UI read the active pack through content/active.ts. Yoga texts stay outside the
 // pack (content/yogas.ts, English for every language), so pages without yogas never load them.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { DISCLAIMER } from '@/engine/types'
 import { EN_NAMES } from '@/i18n/names/en'
 import { DASHA_THEMES, dashaChangeText, dashaCombination, dashaTransitText } from './dasha'

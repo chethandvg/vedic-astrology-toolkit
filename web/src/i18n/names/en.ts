@@ -1,7 +1,9 @@
 // Names of the astrological terms in English (the transliterations the app has always shown),
 // and the shape every language's names follow. Shared by the UI and by the interpretation packs
 // the engine worker uses, so a sign or a nakshatra reads the same on the chart and in a forecast.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { NAKSHATRA_NAMES, SIGN_NAMES, SIGN_SANSKRIT, SIGN_SHORT, TITHI_NAMES, YOGA_NAMES } from '@/engine/core'
 import type { ChoghadiyaName } from '@/engine/muhurta'
 import type { KootaKey, PoruthamKey } from '@/engine/matching'

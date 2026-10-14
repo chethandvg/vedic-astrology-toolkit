@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import {
   ArrowRight, CalendarRange, ChevronRight, CodeXml, Cpu, LayoutGrid, Lock, MapPin, ShieldCheck, Sparkles, Sunrise, UserPlus,
   type LucideIcon,

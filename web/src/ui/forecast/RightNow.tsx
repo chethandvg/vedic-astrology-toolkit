@@ -1,6 +1,8 @@
 // "Right now": the running hora and choghadiya and whether an inauspicious window is on,
 // refreshed every minute by the shared clock.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Hourglass, ShieldAlert, ShieldCheck, Sparkle, Sunrise } from 'lucide-react'
 import { useId, type ReactNode } from 'react'
 import { formatJd } from '@/engine/time'

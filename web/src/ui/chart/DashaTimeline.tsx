@@ -1,6 +1,8 @@
 // Vimsottari timeline: a proportional mahadasha bar with a "Now" marker, then an
 // expandable list down to antardashas and pratyantardashas with the running chain marked.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useId, useMemo, useState } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { ChevronRight } from 'lucide-react'

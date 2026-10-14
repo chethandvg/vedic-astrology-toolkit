@@ -1,6 +1,8 @@
 // App-wide preferences: calculation settings (with named presets), chart
 // style, colour theme and interface language, persisted in localStorage.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useSyncExternalStore } from 'react'
 import { PRESETS, type Ayanamsa, type NodeType, type Settings, type YearModel } from '@/engine/types'
 import { isLang, type LanguagePreference } from '@/i18n/langs'

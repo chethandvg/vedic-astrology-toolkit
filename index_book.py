@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Additional terms under AGPL section 7 apply; see NOTICE.
 """Index the user's PDF, retaining PDF-page references and extraction warnings.
 Optional dependency: PyMuPDF. Does not mistake text extraction for visual reading.
 Usage: python index_book.py BOOK.pdf --output extracted_book [--text] [--render 48 58]

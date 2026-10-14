@@ -3,7 +3,9 @@
 // window, where the user saves it as a PDF. Cover, D1 and D9 charts, planets, birth panchanga,
 // Vimsottari dasha, the year's outlook and transits from the same forecast call as the Year
 // page, and the yogas formed and the planetary strengths (Shadbala, Vimsopaka, functional nature).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { ArrowLeft, Download } from 'lucide-react'
 import { Link, type RouteComponentProps } from 'wouter'
 import { T } from '@/content/active'

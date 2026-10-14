@@ -2,7 +2,9 @@
 // replaced when it dies, calls sent to it one at a time, a small cache of results by key (so
 // returning to a view is instant and prefetches pay off), and a React hook that runs a cached
 // engine call with a retry and drops requests superseded before they were sent.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { releaseProxy, wrap, type Remote } from 'comlink'
 import type { EngineApi } from '@/engine/api'

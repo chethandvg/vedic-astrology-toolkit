@@ -2,7 +2,9 @@
 // UTC offset at the birth instant with the toolkit's clock-change rules
 // (engine/time.ts): a skipped wall time is an error and a repeated one needs
 // an explicit fold choice. Needs no WebAssembly.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { t } from '@/i18n'
 import { Temporal } from 'temporal-polyfill'
 import { fixedOffsetMinutes, isValidTimeZone, localToUtc } from '@/engine/time'

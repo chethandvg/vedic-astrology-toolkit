@@ -1,6 +1,8 @@
 // Positions of the ascendant and the nine grahas: a table on wide screens and stacked
 // cards on phones (only one of the two is ever displayed, so assistive tech reads one).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { clsx } from 'clsx'
 import { formatDegree } from '@/engine/core'
 import { useT } from '@/i18n'

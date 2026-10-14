@@ -1,5 +1,7 @@
 // Mild panchanga cautions for new beginnings. Original wording.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 
 /** " Today it runs until 12:50, then Dashami begins." */
 const span = (when: string, next?: string) => ` Today it runs ${when}${next ? `, then ${next} begins` : ''}.`

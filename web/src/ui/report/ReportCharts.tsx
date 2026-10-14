@@ -1,7 +1,9 @@
 // Report sections for the birth chart: the rasi (D1) and navamsa (D9) charts in the user's
 // chart style, and a compact planet table that fits an A4 page (sign, degree, nakshatra,
 // star lord, navamsa sign, dignity and motion).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { formatDegree } from '@/engine/core'
 import { useT } from '@/i18n'
 import { PLANETS, type Body, type Chart } from '@/engine/types'

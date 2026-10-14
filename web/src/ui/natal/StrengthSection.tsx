@@ -1,7 +1,9 @@
 // Planetary strength in the birth chart: Shadbala per planet as a bar with its required minimum
 // marked, Vimsopaka out of 20 in two varga groups, and the functional nature of each planet for
 // the rising sign (helpful, neutral, harder, yogakaraka).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { T } from '@/content/active'
 import { useT } from '@/i18n'
 import type { FunctionalNature } from '@/engine/functional'

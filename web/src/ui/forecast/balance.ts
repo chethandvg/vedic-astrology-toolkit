@@ -3,7 +3,9 @@
 // reasons' weights (engine/predict.ts scoreReasons); a week, month or year is the average of
 // its days or months, so their ratings are counted instead. Also which reasons a shortened
 // list shows first, so the ones the card names are always among them.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { Effect, Forecast, Rating, Reason } from '@/engine/types'
 import { t, tp } from '@/i18n'
 

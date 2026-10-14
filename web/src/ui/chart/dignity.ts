@@ -1,5 +1,7 @@
 // Sign-level dignity of a graha: exalted, own sign or debilitated.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { SIGN_LORDS } from '@/engine/core'
 import type { Body, Planet, SignIndex } from '@/engine/types'
 import { t } from '@/i18n'

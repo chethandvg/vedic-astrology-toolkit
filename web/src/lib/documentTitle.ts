@@ -1,7 +1,9 @@
 // Page titles: each screen names itself in the browser tab and history ("Today, Wed 14 Oct ·
 // Asha · Jyotish Daily"), and the shell announces the new title to screen readers after a
 // route change (RouteAnnouncer in ui/layout/AppLayout.tsx), since focus stays on the nav link.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useEffect, useSyncExternalStore } from 'react'
 
 export const APP_NAME = 'Jyotish Daily'

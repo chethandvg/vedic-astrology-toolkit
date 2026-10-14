@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Additional terms under AGPL section 7 apply; see NOTICE.
 """Independent text fixtures, boundary cases and consequential integration checks."""
 import json
 from pathlib import Path

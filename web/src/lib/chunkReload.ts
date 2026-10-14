@@ -4,7 +4,9 @@
 // (https://vite.dev/guide/build#load-error-handling), and a reload fetches the new build. A time
 // stamp in sessionStorage allows one such reload a minute per tab, so a chunk that is really
 // missing ends in the app's error screen instead of a reload loop.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 
 const KEY = 'jyotish-daily:chunk-reload-at'
 const MIN_GAP_MS = 60_000

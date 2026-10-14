@@ -1,6 +1,8 @@
 // Chart with segmented controls for the drawing style (North/South Indian) and the
 // division (D1, D9, D10 and a menu with every varga the engine computes).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useId, useState } from 'react'
 import { ToggleGroup } from 'radix-ui'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'

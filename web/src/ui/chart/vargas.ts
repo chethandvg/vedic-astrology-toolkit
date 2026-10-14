@@ -3,7 +3,9 @@
 // non-shodasa D5, D6, D8 and D11, P. V. R. Narasimha Rao's book ch. 6 (the toolkit's
 // reference). Wording is original and deliberately brief; both are in the current language
 // (names from the language's names, themes from the messages varga.<n>).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { VARGAS } from '@/engine/core'
 import { names, t, type MessageKey } from '@/i18n'
 

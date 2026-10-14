@@ -1,6 +1,8 @@
 // Month: the month's rating, a heatmap calendar of its days (tap or Enter opens a day), key
 // dates (sign changes, retrogrades, Chandrashtama, dasha changes) and the reasons.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { CalendarRange, Flag } from 'lucide-react'
 import type { RouteComponentProps } from 'wouter'
 import type { EventKind } from '@/engine/types'

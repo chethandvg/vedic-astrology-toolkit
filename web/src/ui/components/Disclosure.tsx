@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { ChevronDown } from 'lucide-react'
 import { Collapsible } from 'radix-ui'
 import type { ReactNode } from 'react'

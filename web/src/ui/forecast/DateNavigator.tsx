@@ -1,7 +1,9 @@
 // Previous / next / back-to-now controls for a forecast period, with a popover picker
 // (days for the day and week views, months for the month view, years for the year view).
 // Left and Right arrow keys anywhere in the group step the period.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { CalendarDays, ChevronLeft, ChevronRight } from 'lucide-react'
 import { AnimatePresence, motion } from 'motion/react'
 import { Popover } from 'radix-ui'

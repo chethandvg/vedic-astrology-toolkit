@@ -1,7 +1,9 @@
 // The short phrases the forecast engine (engine/predict.ts) builds its reason titles, event titles
 // and dates from, in English. Each language's interpretation pack supplies the same functions, so
 // the engine composes no user-facing words of its own.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { NAKSHATRA_NAMES, SIGN_NAMES, SIGN_SANSKRIT, TITHI_NAMES } from '@/engine/core'
 import { describeDuration } from '@/engine/dasha'
 import { addDays, weekdayOf } from '@/engine/time'

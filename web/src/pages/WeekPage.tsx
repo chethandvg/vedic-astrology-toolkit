@@ -1,6 +1,8 @@
 // Week: the week's rating, its seven days at a glance (tap one to open it), the best and
 // gentlest days, the reasons and the week's events.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { CalendarDays, Milestone } from 'lucide-react'
 import type { RouteComponentProps } from 'wouter'
 import { useT } from '@/i18n'

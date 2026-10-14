@@ -1,7 +1,9 @@
 // The eight kootas: what each compares, both partners' values, the points out of its maximum and
 // a plain reading; then the Nadi and Bhakoot dosha notes with their exceptions, kept apart from
 // the raw score.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { T } from '@/content/active'
 import { matchValue } from './values'
 import { useT } from '@/i18n'

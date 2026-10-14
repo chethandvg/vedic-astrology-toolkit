@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Additional terms under AGPL section 7 apply; see NOTICE.
 """Regenerate non-personal examples from Rao's Example 118, plus a sign-only Moola fixture."""
 from pathlib import Path
 import json

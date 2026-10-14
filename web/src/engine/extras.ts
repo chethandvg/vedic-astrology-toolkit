@@ -1,7 +1,9 @@
 // Structured context the forecast screens show beside a forecast, computed in the worker from the
 // same context: the day's Moon and its Chandrashtama stay, and for a year the slow planets' sign
 // stays, Saturn's named phases and the Muntha. Plain data, so it crosses the worker boundary as is.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { advanceSign, houseFrom } from './core'
 import { cellChanges } from './events'
 import { chandrashtamaWindows, moonDay, type MoonDay } from './moon'

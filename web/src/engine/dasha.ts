@@ -1,6 +1,8 @@
 // Vimsottari dasha, ported from vimsottari() in vedic_toolkit/dashas.py and dated() in
 // vedic_toolkit/astronomy.py (book PDF 189-194). Periods are half-open [startJd, endJd).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { NAKSHATRA_SPAN, norm, VIM_ORDER, VIM_YEARS } from './core'
 import type { DashaPeriod, Planet, TimedEvent, YearModel } from './types'
 

@@ -1,7 +1,9 @@
 // Language-neutral pieces of the Indian-language interpretation packs: date formats through Intl,
 // rough durations, outcome pickers and the headline template picker. Each pack supplies its own
 // words; the logic mirrors the English pack (content/*.ts) so every language says the same thing.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { dateRuns, type LocalParts } from '@/content/engine'
 import type { KootaKey, PoruthamKey, PoruthamStatus } from '@/engine/matching'
 import { intlDates } from '../intl'

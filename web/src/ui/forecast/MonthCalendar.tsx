@@ -1,6 +1,8 @@
 // A month as a heatmap: each day tinted by its rating (with an icon, never colour alone);
 // arrows move between days and Enter opens the day.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useState, type CSSProperties } from 'react'
 import { useLocation } from 'wouter'
 import type { Forecast, Rating } from '@/engine/types'

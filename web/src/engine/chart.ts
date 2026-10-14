@@ -2,7 +2,9 @@
 // toolkit (vedic_toolkit/analysis.py), limited to what the forecasts need:
 // positions, all 20 vargas, panchanga and the sunrise day, plus input
 // validation with user-facing messages and warnings about doubtful inputs.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { Temporal } from 'temporal-polyfill'
 import { panchanga, SIGN_NAMES, VARGAS, vargaSign } from './core'
 import { ascendant, ayanamsaDegrees, positionsWithAscendant } from './ephem'

@@ -1,7 +1,9 @@
 // The reasons behind a rating, grouped Supportive / Neutral / Challenging. Each card shows
 // its title, how much it counts (a small bar) and the plain-language text; opening it shows
 // the whole text and where the rule comes from. A long list can start with its heaviest few.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { BookOpen, ChevronDown, ChevronsDown, ChevronsUp } from 'lucide-react'
 import { Collapsible } from 'radix-ui'
 import { useId, useState } from 'react'

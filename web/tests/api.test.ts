@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 // The worker-facing forecast, chart and timings calls: plain data in and out, the extras the
 // screens need, settings that change results, and context reuse across views.
 import { beforeAll, describe, expect, it } from 'vitest'

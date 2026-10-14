@@ -12,7 +12,9 @@
 //   Sripati minimum). Without it, strength conditions stay null.
 // - Friendship is the compound (natural + temporary) relation in the rasi chart.
 // - Hora/Ghati lagnas (PDF 48-52) need sunrise; in polar day/night they are unknown.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { advanceSign, houseFrom, norm, signOf, SIGN_LORDS, SIGN_SHORT, vargaSign } from './core'
 import { sunLongitude } from './ephem'
 import type { Body, Chart, Planet, SignIndex } from './types'

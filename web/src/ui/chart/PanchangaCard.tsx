@@ -1,5 +1,7 @@
 // The five limbs of the birth panchanga plus sunrise and sunset in the birth zone.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { ReactNode } from 'react'
 import { CalendarDays, Hourglass, MoonStar, Orbit, Sparkles, Sunrise, Sunset } from 'lucide-react'
 import { clsx } from 'clsx'

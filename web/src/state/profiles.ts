@@ -1,5 +1,7 @@
 // Birth profiles, kept only in this browser's localStorage.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { t } from '@/i18n'
 import { useSyncExternalStore } from 'react'
 import type { BirthInput } from '@/engine/types'

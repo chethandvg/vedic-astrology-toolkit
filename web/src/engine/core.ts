@@ -1,5 +1,7 @@
 // Pure zodiac arithmetic, ported from vedic_toolkit/core.py (PDF page refs are the book's).
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { Nakshatra, Panchanga, Planet, SignIndex } from './types'
 
 export const SIGN_NAMES = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces'] as const

@@ -1,7 +1,9 @@
 // Small persisted stores for React's useSyncExternalStore. Storage can be
 // missing or throw (private mode, blocked cookies, Node tests), so every
 // access is guarded and the app keeps working in memory.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 
 export interface Store<T> {
   get(): T

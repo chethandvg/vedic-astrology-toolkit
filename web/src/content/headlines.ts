@@ -1,6 +1,8 @@
 // One-line headlines assembled from the strongest supportive and cautionary reasons.
 // Phrases are keyed by Reason.factor; templates are original.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { Planet, Rating } from '@/engine/types'
 import { capitalize } from './format'
 

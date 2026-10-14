@@ -1,7 +1,9 @@
 // A month of days as an ARIA grid (Sunday first) with one tab stop: arrows move by day and
 // week, Home and End to the week's ends, Page Up and Page Down by month, Enter or Space picks.
 // Shared by the month heatmap and the date picker.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useEffect, useRef, type CSSProperties, type KeyboardEvent, type ReactNode } from 'react'
 import { addDays, addMonths, weekdayOf } from '@/engine/time'
 import { cn } from '@/lib/cn'

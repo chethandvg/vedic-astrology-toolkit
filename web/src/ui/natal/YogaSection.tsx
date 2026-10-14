@@ -1,7 +1,9 @@
 // Yogas of the birth chart: the met rules grouped by their nature (supportive, asking for care,
 // mixed) with friendly names, meanings, the planets that form them and the book's page, and a
 // disclosure listing every one of the 170 rules checked with its status.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { T } from '@/content/active'
 import { t, useT } from '@/i18n'
 import { yogaContent, type YogaNature } from '@/content/yogas'

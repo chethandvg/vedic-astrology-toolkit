@@ -1,7 +1,9 @@
 // Cover of the printable report: who the chart is for, the birth details as entered and as
 // computed (UTC offset, UTC instant), the calculation settings, the chart at a glance and the
 // contents of the report.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { useT } from '@/i18n'
 import type { Chart, DashaPeriod } from '@/engine/types'
 import { profileName, type Profile } from '@/state/profiles'

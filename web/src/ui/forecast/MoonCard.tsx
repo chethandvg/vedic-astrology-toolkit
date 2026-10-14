@@ -1,7 +1,9 @@
 // The transiting Moon around midday (where the day's Moon factors are read) judged from the
 // birth Moon: sign, nakshatra, Tara bala, Chandra bala and Chandrashtama, plus the Moon's
 // changes during the day.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { MoonStar } from 'lucide-react'
 import type { ReactNode } from 'react'
 import type { MoonDay } from '@/engine/moon'

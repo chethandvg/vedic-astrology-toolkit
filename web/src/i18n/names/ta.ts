@@ -1,6 +1,8 @@
 // Tamil names of the astrological terms, in the forms Tamil panchangams and jathagams use
 // (ராகு காலம், சந்திராஷ்டமம், வளர்பிறை, புக்தி...). The English name is kept as the secondary label.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { SIGN_NAMES } from '@/engine/core'
 import type { Names } from './en'
 

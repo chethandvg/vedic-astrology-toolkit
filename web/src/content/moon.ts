@@ -1,6 +1,8 @@
 // Daily Moon factors: Tara bala (the nine stars counted from the birth star), Chandra bala and
 // Chandrashtama. Original wording; the good and difficult classes follow src/engine/moon.ts.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { TaraName } from '@/engine/moon'
 
 export const TARA_TEXT: Readonly<Record<TaraName, string>> = {

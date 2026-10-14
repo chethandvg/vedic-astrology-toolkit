@@ -1,7 +1,9 @@
 // Transit texts: what each graha's passage through each house from the natal Moon tends to bring.
 // The direction of each house (good or difficult) follows the classical gochara table; every
 // sentence is original, practical and gentle, and describes tendencies rather than certainties.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import type { Planet } from '@/engine/types'
 import { joinList, ordinal, type ByHouse } from './format'
 

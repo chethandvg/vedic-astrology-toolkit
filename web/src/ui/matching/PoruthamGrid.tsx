@@ -1,6 +1,8 @@
 // The ten South Indian poruthams as a grid of tiles: agreement icon, name, what the check rests
 // on and a plain reading, with Rajju and Vedha marked as the essential pair.
+// SPDX-FileCopyrightText: 2026 Chethan (chethandvg)
 // SPDX-License-Identifier: AGPL-3.0-or-later
+// Additional terms under AGPL section 7 apply; see NOTICE.
 import { CircleCheck, CircleMinus, CircleX, type LucideIcon } from 'lucide-react'
 import { T } from '@/content/active'
 import { t, useT } from '@/i18n'
