@@ -9,6 +9,7 @@
 ![Ephemeris](https://img.shields.io/badge/ephemeris-Swiss%20Ephemeris-6f42c1)
 ![JPL check](https://img.shields.io/badge/JPL%20DE440s-67%2F67%20matched-0969da)
 [![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE.txt)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/chethandvg/vedic-astrology-toolkit/badge)](https://scorecard.dev/viewer/?uri=github.com/chethandvg/vedic-astrology-toolkit)
 [![Web app](https://img.shields.io/badge/web%20app-live-f0a530?logo=googlechrome&logoColor=white)](https://chethandvg.github.io/vedic-astrology-toolkit/)
 
 Birth charts · 20 divisional charts · Shadbala · Ashtakavarga · 170 yogas · 11 dasha systems · Tajaka annual charts · Panchanga · Muhurta screening
