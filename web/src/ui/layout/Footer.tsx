@@ -8,6 +8,9 @@ import { cn } from '@/lib/cn'
 import { LogoMark, Wordmark } from '@/ui/components/Logo'
 
 export const SOURCE_URL = 'https://github.com/chethandvg/vedic-astrology-toolkit'
+/** Author attribution required by the AGPL section 7 terms in NOTICE; keep it in modified versions. */
+export const AUTHOR_URL = 'https://github.com/chethandvg'
+export const COPYRIGHT = '© 2026 Chethan'
 
 const linkClass = 'inline-flex min-h-11 items-center rounded-lg text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--text)] md:min-h-9'
 
@@ -36,7 +39,9 @@ export function Footer({ className }: { className?: string }) {
           <p>{t('common.disclaimer')}</p>
           <p className="flex items-center gap-1.5">
             <CodeXml aria-hidden className="size-4 shrink-0" />
-            {t('footer.licence')}
+            <span>
+              <a href={AUTHOR_URL} target="_blank" rel="noreferrer" className="underline-offset-2 hover:underline">{COPYRIGHT}</a> · {t('footer.licence')}
+            </span>
           </p>
         </div>
       </div>

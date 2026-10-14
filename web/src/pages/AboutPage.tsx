@@ -9,7 +9,7 @@ import { Button } from '@/ui/components/Button'
 import { Callout } from '@/ui/components/Callout'
 import { Card } from '@/ui/components/Card'
 import { SectionHeader } from '@/ui/components/SectionHeader'
-import { SOURCE_URL } from '@/ui/layout/Footer'
+import { AUTHOR_URL, COPYRIGHT, SOURCE_URL } from '@/ui/layout/Footer'
 import { Page } from '@/ui/layout/Page'
 
 function ExtLink({ href, children }: { href: string; children: ReactNode }) {
@@ -92,6 +92,11 @@ export default function AboutPage() {
 
         <Section icon={Scale} title={t('about.licences')}>
           <ul className="list-disc space-y-2 pl-5 marker:text-[var(--accent-text)]">
+            <li>
+              {/* Appropriate Legal Notice and author attribution (AGPL section 5(d), NOTICE section 7(b)). */}
+              <strong>Copyright {COPYRIGHT}</strong>. Originally created by Chethan (<ExtLink href={AUTHOR_URL}>@chethandvg</ExtLink>). See{' '}
+              <ExtLink href={`${SOURCE_URL}/blob/main/NOTICE`}>NOTICE</ExtLink> and <ExtLink href={`${SOURCE_URL}/blob/main/LICENSE.txt`}>LICENSE</ExtLink>.
+            </li>
             <li>
               {rich(t('about.licence1'), { licence: <ExtLink href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License v3.0 or later</ExtLink> })}
             </li>
