@@ -3,7 +3,7 @@
 PyJHora==4.8.7
 geocoder==1.38.1
 requests==2.34.2
-pytz==2026.5
+pytz==2026.6
 timezonefinder==9.0.0
 geopy==2.5.0
 python-dateutil==2.9.0.post0
