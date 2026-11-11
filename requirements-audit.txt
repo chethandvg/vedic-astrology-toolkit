@@ -1,6 +1,6 @@
 # Optional independent strength audit; tested with Python 3.12.14.
 -r requirements.txt
-PyJHora==4.8.7
+PyJHora==5.0.0
 geocoder==1.38.1
 requests==2.34.2
 pytz==2026.5
